@@ -35,10 +35,12 @@ Pervalutare tutti e tre i modelli ho usato l'accuracy e la matrice di cofusione.
 ## Prerequisiti e utilizzo
 
 - Ultima versione di Python disponibile
-- per caricare e usare i file, runnare le seguenti  righe all'interno del notebook:
+- per caricare e usare i file, runnare le seguenti righe all'interno del notebook:
 
-!wget https://proai-datasets.s3.eu-west-3.amazonaws.com/fake_news.zip
+!wget https://proai-datasets.s3.eu-west-3.amazonaws.com/fake_news.zip  
 !unzip fake_news.zip
+
+Oppure estralli sulla proprio cartella di lavoro e poi importarli come csv.
 
 - Installare e/o importare le seguenti librerie
   - pandas
