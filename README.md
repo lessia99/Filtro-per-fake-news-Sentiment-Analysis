@@ -10,7 +10,7 @@ Da un'accurata analisi, si può rispondere a domande come:
 ## Data
 1. **datasets**:I dataset usati sono uno contente solo notizie vere, True.csv, e uno solo notizie false, Fake.csv. Si possono scaricare al seguente link:
 
-(DA GUARDARE)
+https://proai-datasets.s3.eu-west-3.amazonaws.com/fake_news.zip 
 
 2. **Fake_news_detection.ipynb**: file che contiene l'analisi
 
@@ -30,7 +30,7 @@ Dopo aver scaricato i file e averli caricati, estraggo dal dataset fake le varia
 4. **Regressione Logistica**
 5. **Decision Tree**
 
-Per valutare tutti e tre i modelli ho usato l'accuracy e la matrice di cofusione.
+Pervalutare tutti e tre i modelli ho usato l'accuracy e la matrice di cofusione.
 
 ## Prerequisiti e utilizzo
 
@@ -55,5 +55,5 @@ All'iterno del notebook si troveranno i commenti e le conclusioni finali.
 ## Contatti
 Per domande, suggerimenti o feedback, contattatemi pure alla mail alessiaagostini53@gmail.com.
 
-https://proai-datasets.s3.eu-west-3.amazonaws.com/fake_news.zip
+
 
