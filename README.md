@@ -22,13 +22,18 @@ Dopo aver scaricato i file e averli caricati, estraggo dal dataset fake le varia
   - Topic modelling sul dataset fake, in particolare eseguo la LDA.
   - Concateno le notizie false e vere, e creo una nuova colonna 'label', true=1 fake=0, così da avere un nuovo dataset. Controllo che i dati siano bilanciati.
   - Analisi preliminari: controllo eventuali valori nulli, capisco come è strutturato il dataset.
-2.**WORD CLOUD**: controllo la frequenza delle parole nel dataset fake e in quello true.  
+  - 
+2.**WORD CLOUD**: controllo la frequenza delle parole nel dataset fake e in quello true.
+    
 3.**Classificazione**:
     - divido il dataset in train e test
     - converto il testo in vettore tramite Tf-idf Vectorizer
+
 4. **Modello Multinomiale NB**
-4. **Regressione Logistica**
-5. **Decision Tree**
+
+5. **Regressione Logistica**
+  
+6. **Decision Tree**
 
 Pervalutare tutti e tre i modelli ho usato l'accuracy e la matrice di cofusione.
 
