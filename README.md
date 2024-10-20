@@ -16,7 +16,7 @@ https://proai-datasets.s3.eu-west-3.amazonaws.com/fake_news.zip
 
 ## Dettagli analisi e modelli usati
 
-Dopo aver scaricato i file e averli caricati, estraggo dal dataset fake le variabili 'title', 'text','subkect' che mi serviranno per il modello. 
+Dopo aver scaricato i file e averli caricati, estraggo dal dataset fake le variabili 'title', 'text','subject' che mi serviranno per il modello. 
 
 1. **Data preprocessing**:
   - Topic modelling sul dataset fake, in particolare eseguo la LDA.
